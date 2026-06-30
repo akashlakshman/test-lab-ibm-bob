@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIFA World Cup 2026 Match Centre</title>
+<style>
+/* ── Design tokens ─────────────────────────────────────────────────────── */
+:root {
+  --hero:    #020f2a;
+  --hero2:   #031740;
+  --blue:    #0a84ff;
+  --blue2:   #3a9fff;
+  --red:     #f43056;
+  --canvas:  #f0f2f5;
+  --card:    #ffffff;
+  --border:  #e2e5ea;
+  --text:    #0d1b2e;
+  --sub:     #5a6780;
+  --muted:   #9aa5b8;
+  --green:   #00b87a;
+  --shadow:  0 2px 12px rgba(2,15,42,.10);
+  --shadow2: 0 4px 24px rgba(2,15,42,.14);
+  --r:       10px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--canvas);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Top bar ───────────────────────────────────────────────────────────── */
+.topbar {
+  background: var(--hero);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 52px;
+  gap: 12px;
+}
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.topbar-brand svg { opacity: .85; }
+.topbar-right { display: flex; align-items: center; gap: 10px; }
+
+#source-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(255,255,255,.08);
+  color: var(--muted);
+  border: 1px solid rgba(255,255,255,.12);
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+#source-badge.live     { background: rgba(0,184,122,.15); color: var(--green); border-color: var(--green); }
+#source-badge.fallback { background: rgba(10,132,255,.15); color: var(--blue2); border-color: var(--blue); }
+
+#refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  transition: background .15s;
+  white-space: nowrap;
+}
+#refresh-btn:hover    { background: var(--blue2); }
+#refresh-btn:disabled { opacity: .45; cursor: not-allowed; }
+.refresh-icon { font-size: 14px; line-height: 1; }
+
+/* ── Hero ──────────────────────────────────────────────────────────────── */
+.hero {
+  background: var(--hero);
+  padding: 36px 24px 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(10,132,255,.18) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+}
+.hero-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--blue2);
+  margin-bottom: 6px;
+}
+.hero-title {
+  font-size: clamp(26px, 5vw, 42px);
+  font-weight: 900;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.05;
+  margin-bottom: 6px;
+}
+.hero-sub {
+  font-size: 13px;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 24px;
+}
+
+/* ── Tab nav ───────────────────────────────────────────────────────────── */
+.tab-nav {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 0;
+  position: relative;
+}
+.tab-nav::-webkit-scrollbar { display: none; }
+.tab-btn {
+  flex-shrink: 0;
+  background: rgba(255,255,255,.08);
+  color: rgba(255,255,255,.55);
+  border: none;
+  padding: 9px 18px;
+  border-radius: 8px 8px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  white-space: nowrap;
+}
+.tab-btn:hover  { background: rgba(255,255,255,.14); color: rgba(255,255,255,.85); }
+.tab-btn.active {
+  background: var(--canvas);
+  color: var(--blue);
+  box-shadow: inset 0 2px 0 var(--blue);
+}
+
+/* ── Body canvas ───────────────────────────────────────────────────────── */
+.body-canvas {
+  background: var(--canvas);
+  min-height: calc(100vh - 52px - 140px);
+}
+.page-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+/* ── Status bar (last updated) ─────────────────────────────────────────── */
+#last-updated {
+  text-align: center;
+  font-size: 11px;
+  color: var(--muted);
+  padding: 7px 16px;
+  background: var(--hero2);
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  letter-spacing: .02em;
+}
+
+/* ── Loading / Error ───────────────────────────────────────────────────── */
+#status-msg {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--sub);
+  font-size: 15px;
+  display: none;
+}
+#status-msg.error { color: var(--red); }
+.spinner {
+  display: inline-block;
+  width: 32px; height: 32px;
+  border: 3px solid var(--border);
+  border-top-color: var(--blue);
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+  margin-bottom: 14px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Tab panels ────────────────────────────────────────────────────────── */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── Placeholder cards (non-Matches tabs) ──────────────────────────────── */
+.placeholder-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+.placeholder-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+  opacity: .6;
+}
+.placeholder-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.placeholder-sub { font-size: 13px; color: var(--sub); }
+
+/* ── Stage section ─────────────────────────────────────────────────────── */
+.stage { margin-bottom: 28px; }
+.stage-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.stage-title {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--sub);
+}
+.stage-divider {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.stage-count {
+  font-size: 11px;
+  color: var(--muted);
+  background: var(--border);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+/* ── Match card ────────────────────────────────────────────────────────── */
+.match-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow);
+  transition: box-shadow .15s, border-color .15s;
+  position: relative;
+  overflow: hidden;
+}
+.match-card:hover { box-shadow: var(--shadow2); border-color: #cdd2db; }
+.match-card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 4px 0 0 4px;
+}
+.match-card.is-live::before    { background: var(--red); }
+.match-card.is-finished::before { background: var(--border); }
+.match-card.is-upcoming::before { background: var(--blue); }
+
+.match-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+.venue-text { font-size: 11px; color: var(--muted); }
+
+.match-body {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+}
+.team {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.team.team2 { flex-direction: row-reverse; text-align: right; }
+.team-flag {
+  width: 30px; height: 21px;
+  object-fit: cover;
+  border-radius: 3px;
+  flex-shrink: 0;
+  background: var(--border);
+  box-shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+.flag-fallback {
+  width: 30px; height: 21px;
+  background: var(--hero);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  font-weight: 800;
+  color: rgba(255,255,255,.7);
+  flex-shrink: 0;
+}
+.team-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+.team-short { display: none; }
+
+/* Score / time center */
+.score-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 84px;
+}
+.score-box {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: -.01em;
+}
+.score-sep { font-size: 18px; font-weight: 300; color: var(--muted); padding: 0 6px; }
+
+.kickoff-time { font-size: 20px; font-weight: 800; color: var(--blue); }
+.kickoff-date { font-size: 11px; color: var(--muted); }
+
+.status-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.badge-ft   { background: #f0f2f5; color: var(--muted); }
+.badge-live { background: var(--red); color: #fff; animation: pulse 1.1s ease-in-out infinite; }
+.badge-soon { background: rgba(10,132,255,.1); color: var(--blue); }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.6; } }
+
+.ht-score { font-size: 11px; color: var(--muted); }
+
+/* Goals */
+.goals-row {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--sub);
+}
+.goals-team { flex: 1; }
+.goals-team.goals-t2 { text-align: right; }
+.goal-item { line-height: 1.7; }
+.goal-item .minute { color: var(--blue); font-weight: 700; }
+
+/* ── "More matches" pill ───────────────────────────────────────────────── */
+.more-wrap {
+  text-align: center;
+  margin: 4px 0 16px;
+}
+#more-btn {
+  background: var(--card);
+  color: var(--blue);
+  border: 1.5px solid var(--blue);
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background .15s, color .15s;
+}
+#more-btn:hover { background: var(--blue); color: #fff; }
+
+/* ── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 520px) {
+  .topbar { padding: 0 14px; }
+  .hero   { padding: 24px 14px 0; }
+  .team-name  { display: none; }
+  .team-short { display: block; font-size: 13px; font-weight: 700; color: var(--text); }
+  .score-box  { font-size: 20px; }
+  .hero-title { font-size: 26px; }
+  .tab-btn    { padding: 9px 13px; font-size: 11px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Top bar ──────────────────────────────────────────────────────────── -->
+<div class="topbar">
+  <div class="topbar-brand">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+    </svg>
+    World Cup 2026
+  </div>
+  <div class="topbar-right">
+    <span id="source-badge">—</span>
+    <button id="refresh-btn"><span class="refresh-icon">↻</span> Refresh</button>
+  </div>
+</div>
+
+<!-- ── Hero + tabs ──────────────────────────────────────────────────────── -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">FIFA World Cup · USA, Canada &amp; Mexico</div>
+    <h1 class="hero-title">World Cup<br>Overview</h1>
+    <p class="hero-sub" id="last-updated">Loading match data…</p>
+
+    <nav class="tab-nav" role="tablist">
+      <button class="tab-btn active" data-tab="overview"  role="tab">Overview</button>
+      <button class="tab-btn"        data-tab="matches"   role="tab">Matches</button>
+      <button class="tab-btn"        data-tab="table"     role="tab">Table</button>
+      <button class="tab-btn"        data-tab="knockout"  role="tab">Knockout</button>
+      <button class="tab-btn"        data-tab="stats"     role="tab">Stats</button>
+    </nav>
+  </div>
+</div>
+
+<!-- ── Body canvas ──────────────────────────────────────────────────────── -->
+<div class="body-canvas">
+  <div class="page-inner">
+
+    <div id="status-msg"></div>
+
+    <!-- Overview tab -->
+    <section class="tab-panel active" id="tab-overview">
+      <!-- populated by JS -->
+    </section>
+
+    <!-- Matches tab -->
+    <section class="tab-panel" id="tab-matches">
+      <!-- populated by JS -->
+    </section>
+
+    <!-- Table placeholder -->
+    <section class="tab-panel" id="tab-table">
+      <div class="placeholder-card">
+        <div class="placeholder-icon">📊</div>
+        <div class="placeholder-title">Group Standings</div>
+        <div class="placeholder-sub">Full group tables with points, goal difference and qualification status — coming soon.</div>
+      </div>
+    </section>
+
+    <!-- Knockout placeholder -->
+    <section class="tab-panel" id="tab-knockout">
+      <div class="placeholder-card">
+        <div class="placeholder-icon">🏆</div>
+        <div class="placeholder-title">Knockout Bracket</div>
+        <div class="placeholder-sub">The Round of 32 bracket pre-seeded from group standings will appear here once the group stage concludes.</div>
+      </div>
+    </section>
+
+    <!-- Stats placeholder -->
+    <section class="tab-panel" id="tab-stats">
+      <div class="placeholder-card">
+        <div class="placeholder-icon">⚽</div>
+        <div class="placeholder-title">Tournament Stats</div>
+        <div class="placeholder-sub">Top scorers, goals by group, and team statistics — coming soon.</div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<!-- Uncomment to force local mock (no network needed):
+<script src="data/openligadb-wm26-2026.mock.js"></script>
+-->
+
+<script>
+(function () {
+  'use strict';
+
+  const API_URL  = 'https://api.openligadb.de/getmatchdata/wm26/2026';
+  const FALLBACK = 'data/openligadb-wm26-2026.json';
+
+  // How many stage groups to show before the "More" button
+  const INITIAL_STAGES = 3;
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+
+  function getScore(match) {
+    let ft = null, ht = null;
+    for (const r of match.matchResults || []) {
+      if (r.resultTypeID === 2) ft = [r.pointsTeam1, r.pointsTeam2];
+      if (r.resultTypeID === 1) ht = [r.pointsTeam1, r.pointsTeam2];
+    }
+    return { ft, ht };
+  }
+
+  function getStatus(match) {
+    if (match.matchIsFinished) return 'finished';
+    if ((match.matchResults || []).length > 0) return 'live';
+    return 'upcoming';
+  }
+
+  function fmtTime(isoUTC) {
+    const d = new Date(isoUTC.endsWith('Z') ? isoUTC : isoUTC + 'Z');
+    return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  }
+
+  function fmtDate(isoUTC) {
+    const d = new Date(isoUTC.endsWith('Z') ? isoUTC : isoUTC + 'Z');
+    return d.toLocaleDateString([], { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  function groupLabel(match) {
+    const name = (match.group && match.group.groupName) || '';
+    if (/Gruppenphase\s*1/i.test(name)) return 'Group Stage — Matchday 1';
+    if (/Gruppenphase\s*2/i.test(name)) return 'Group Stage — Matchday 2';
+    if (/Gruppenphase\s*3/i.test(name)) return 'Group Stage — Matchday 3';
+    if (/Achtelfinale/i.test(name))     return 'Round of 16';
+    if (/Viertelfinale/i.test(name))    return 'Quarter-finals';
+    if (/Halbfinale/i.test(name))       return 'Semi-finals';
+    if (/Finale/i.test(name))           return 'Final';
+    return name || 'Other';
+  }
+
+  function stageOrder(match) {
+    return (match.group && match.group.groupOrderID) || 99;
+  }
+
+  // ── Flag image ────────────────────────────────────────────────────────────
+
+  function flagImg(team) {
+    const short = (team.shortName || '??').slice(0, 3).toUpperCase();
+    if (team.teamIconUrl) {
+      return `<img class="team-flag" src="${team.teamIconUrl}"
+        alt="${short}" title="${team.teamName}"
+        onerror="this.outerHTML=\`<span class='flag-fallback'>${short}</span>\`">`;
+    }
+    return `<span class="flag-fallback">${short}</span>`;
+  }
+
+  // ── Match card ────────────────────────────────────────────────────────────
+
+  function matchCard(match) {
+    const { ft, ht } = getScore(match);
+    const status     = getStatus(match);
+
+    let badge = '';
+    if (status === 'finished') {
+      badge = `<span class="status-badge badge-ft">FT</span>`;
+    } else if (status === 'live') {
+      badge = `<span class="status-badge badge-live">● Live</span>`;
+    } else {
+      badge = `<span class="status-badge badge-soon">vs</span>`;
+    }
+
+    let center = '';
+    if (status === 'finished' || status === 'live') {
+      const s = ft || [0, 0];
+      center = `
+        <div class="score-col">
+          <div class="score-box">
+            <span>${s[0]}</span><span class="score-sep">:</span><span>${s[1]}</span>
+          </div>
+          ${badge}
+          ${ht ? `<div class="ht-score">HT ${ht[0]}–${ht[1]}</div>` : ''}
+        </div>`;
+    } else {
+      const dt = match.matchDateTimeUTC || match.matchDateTime;
+      center = `
+        <div class="score-col">
+          <div class="kickoff-time">${fmtTime(dt)}</div>
+          <div class="kickoff-date">${fmtDate(dt)}</div>
+          ${badge}
+        </div>`;
+    }
+
+    let goalsRow = '';
+    if ((status === 'finished' || status === 'live') && (match.goals || []).length > 0) {
+      const byT1 = [], byT2 = [];
+      let prev = 0;
+      for (const g of match.goals) {
+        const suffix = g.isOwnGoal ? ' (og)' : g.isPenalty ? ' (pen)' : '';
+        const lbl = `${g.goalGetterName || '?'}${suffix} <span class="minute">${g.matchMinute}'</span>`;
+        if (g.scoreTeam1 > prev) byT1.push(lbl); else byT2.push(lbl);
+        prev = g.scoreTeam1;
+      }
+      goalsRow = `
+        <div class="goals-row">
+          <div class="goals-team goals-t1">${byT1.map(g => `<div class="goal-item">${g}</div>`).join('')}</div>
+          <div class="goals-team goals-t2">${byT2.map(g => `<div class="goal-item">${g}</div>`).join('')}</div>
+        </div>`;
+    }
+
+    const venue = match.location
+      ? `${match.location.locationCity}${match.location.locationStadium ? ' · ' + match.location.locationStadium : ''}`
+      : '';
+
+    return `
+      <div class="match-card is-${status}">
+        <div class="match-meta">
+          <span class="venue-text">${venue}</span>
+        </div>
+        <div class="match-body">
+          <div class="team team1">
+            ${flagImg(match.team1)}
+            <span class="team-name">${match.team1.teamName}</span>
+            <span class="team-short">${match.team1.shortName || match.team1.teamName}</span>
+          </div>
+          ${center}
+          <div class="team team2">
+            ${flagImg(match.team2)}
+            <span class="team-name">${match.team2.teamName}</span>
+            <span class="team-short">${match.team2.shortName || match.team2.teamName}</span>
+          </div>
+        </div>
+        ${goalsRow}
+      </div>`;
+  }
+
+  // ── Build sorted stage map ────────────────────────────────────────────────
+
+  function buildStages(matches) {
+    const sorted = [...matches].sort((a, b) => {
+      const d = stageOrder(a) - stageOrder(b);
+      if (d !== 0) return d;
+      return new Date(a.matchDateTimeUTC || a.matchDateTime) -
+             new Date(b.matchDateTimeUTC || b.matchDateTime);
+    });
+    const map = new Map();
+    for (const m of sorted) {
+      const key = `${stageOrder(m)}__${groupLabel(m)}`;
+      if (!map.has(key)) map.set(key, { label: groupLabel(m), matches: [] });
+      map.get(key).matches.push(m);
+    }
+    return [...map.values()];
+  }
+
+  function stageHtml(stage) {
+    return `
+      <div class="stage">
+        <div class="stage-header">
+          <span class="stage-title">${stage.label}</span>
+          <span class="stage-divider"></span>
+          <span class="stage-count">${stage.matches.length} match${stage.matches.length !== 1 ? 'es' : ''}</span>
+        </div>
+        ${stage.matches.map(matchCard).join('')}
+      </div>`;
+  }
+
+  // ── Render: Matches tab ───────────────────────────────────────────────────
+
+  function renderMatches(matches) {
+    const stages = buildStages(matches);
+    const panel  = document.getElementById('tab-matches');
+
+    if (stages.length === 0) {
+      panel.innerHTML = `<p style="color:var(--sub);text-align:center;padding:40px">No matches found.</p>`;
+      return;
+    }
+
+    const visible  = stages.slice(0, INITIAL_STAGES);
+    const hidden   = stages.slice(INITIAL_STAGES);
+    const hasMore  = hidden.length > 0;
+
+    let html = visible.map(stageHtml).join('');
+
+    if (hasMore) {
+      html += `<div class="more-wrap"><button id="more-btn">Show ${hidden.length} more group${hidden.length !== 1 ? 's' : ''}</button></div>`;
+    }
+
+    panel.innerHTML = html;
+
+    if (hasMore) {
+      document.getElementById('more-btn').addEventListener('click', () => {
+        const btn  = document.getElementById('more-btn');
+        const wrap = btn.parentElement;
+        wrap.insertAdjacentHTML('beforebegin', hidden.map(stageHtml).join(''));
+        wrap.remove();
+      });
+    }
+  }
+
+  // ── Render: Overview tab ──────────────────────────────────────────────────
+
+  function renderOverview(matches) {
+    const panel = document.getElementById('tab-overview');
+    const now   = Date.now();
+
+    const live     = matches.filter(m => getStatus(m) === 'live');
+    const finished = matches.filter(m => getStatus(m) === 'finished')
+                            .sort((a, b) => new Date(b.matchDateTimeUTC || b.matchDateTime) -
+                                            new Date(a.matchDateTimeUTC || a.matchDateTime))
+                            .slice(0, 5);
+    const upcoming = matches.filter(m => getStatus(m) === 'upcoming')
+                            .sort((a, b) => new Date(a.matchDateTimeUTC || a.matchDateTime) -
+                                            new Date(b.matchDateTimeUTC || b.matchDateTime))
+                            .slice(0, 5);
+
+    function section(title, ms) {
+      if (!ms.length) return '';
+      return `
+        <div class="stage">
+          <div class="stage-header">
+            <span class="stage-title">${title}</span>
+            <span class="stage-divider"></span>
+          </div>
+          ${ms.map(matchCard).join('')}
+        </div>`;
+    }
+
+    const html = section('🔴 Live Now', live) +
+                 section('Recent Results', finished) +
+                 section('Upcoming Fixtures', upcoming);
+
+    panel.innerHTML = html ||
+      `<div class="placeholder-card">
+        <div class="placeholder-icon">📅</div>
+        <div class="placeholder-title">No matches right now</div>
+        <div class="placeholder-sub">Check the Matches tab for the full schedule.</div>
+       </div>`;
+  }
+
+  // ── Data loading ──────────────────────────────────────────────────────────
+
+  function setStatus(msg, isError) {
+    const el = document.getElementById('status-msg');
+    el.style.display = msg ? 'block' : 'none';
+    el.className = isError ? 'error' : '';
+    el.innerHTML = msg;
+  }
+
+  function setBadge(text, cls) {
+    const el = document.getElementById('source-badge');
+    el.textContent = text;
+    el.className = cls;
+  }
+
+  function setMeta(text) {
+    document.getElementById('last-updated').textContent = text;
+  }
+
+  function extractMatches(data) {
+    if (Array.isArray(data)) return data;
+    if (data && Array.isArray(data.matches)) return data.matches;
+    return [];
+  }
+
+  async function load() {
+    const btn = document.getElementById('refresh-btn');
+    btn.disabled = true;
+    setStatus(`<div class="spinner"></div><br>Loading match data…`, false);
+    document.getElementById('tab-matches').innerHTML  = '';
+    document.getElementById('tab-overview').innerHTML = '';
+
+    try {
+      // 1. Mock override
+      if (window.__OPENLIGADB_WM26_MOCK__) {
+        const matches = extractMatches(window.__OPENLIGADB_WM26_MOCK__);
+        renderOverview(matches);
+        renderMatches(matches);
+        setBadge('Mock data', 'fallback');
+        setStatus('', false);
+        setMeta(`Mock data · ${matches.length} matches`);
+        btn.disabled = false;
+        return;
+      }
+
+      // 2. Live API
+      let matches = null;
+      try {
+        const resp = await fetch(API_URL, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        matches = extractMatches(data);
+        setBadge('Live', 'live');
+        setMeta(`Live data · ${matches.length} matches · ${new Date().toLocaleTimeString()}`);
+      } catch (liveErr) {
+        console.warn('Live API failed, using local fallback:', liveErr.message);
+        // 3. Local JSON fallback
+        const resp2 = await fetch(FALLBACK, { cache: 'no-store' });
+        if (!resp2.ok) throw new Error(`Fallback HTTP ${resp2.status}`);
+        const data2 = await resp2.json();
+        matches = extractMatches(data2);
+        setBadge('Local fallback', 'fallback');
+        setMeta(`Local fallback · ${matches.length} matches`);
+      }
+
+      renderOverview(matches);
+      renderMatches(matches);
+      setStatus('', false);
+
+    } catch (err) {
+      setStatus(`⚠ Could not load match data.<br><small>${err.message}</small>`, true);
+      setBadge('Error', '');
+      setMeta('');
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  // ── Tab switching ─────────────────────────────────────────────────────────
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+
+  document.getElementById('refresh-btn').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>

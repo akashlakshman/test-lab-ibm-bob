@@ -1,0 +1,3956 @@
+window.__OPENLIGADB_WM26_MOCK__ = {
+  "generatedAt": "2026-06-17T10:44:13.419643+00:00",
+  "source": "OpenLigaDB",
+  "sourceUrls": {
+    "matches": "https://api.openligadb.de/getmatchdata/wm26/2026",
+    "currentGroup": "https://api.openligadb.de/getcurrentgroup/wm26"
+  },
+  "leagueShortcut": "wm26",
+  "season": 2026,
+  "currentGroup": {
+    "groupName": "Gruppenphase 1",
+    "groupOrderID": 1,
+    "groupID": 49767
+  },
+  "matches": [
+    {
+      "matchID": 80099,
+      "matchDateTime": "2026-06-11T21:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-11T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 761,
+        "teamName": "Mexiko",
+        "shortName": "MEX",
+        "teamIconUrl": "https://awiealex.de/flags/mx.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 677,
+        "teamName": "Südafrika",
+        "shortName": "RSA",
+        "teamIconUrl": "https://awiealex.de/flags/za.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-17T10:27:57.55",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125363,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125364,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 2,
+          "pointsTeam2": 0,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143325,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 9,
+          "goalGetterID": 25017,
+          "goalGetterName": "Julián Quiñones",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143330,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 67,
+          "goalGetterID": 17055,
+          "goalGetterName": "Raúl Jiménez",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1849,
+        "locationCity": "Mexico City",
+        "locationStadium": "Azteca"
+      },
+      "numberOfViewers": 0
+    },
+    {
+      "matchID": 80100,
+      "matchDateTime": "2026-06-12T04:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-12T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 751,
+        "teamName": "Südkorea",
+        "shortName": "KOR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 141,
+        "teamName": "Tschechien",
+        "shortName": "CZE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T19:01:45.5",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125374,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125375,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 2,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143337,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 59,
+          "goalGetterID": 15717,
+          "goalGetterName": "Ladislav Krejcí",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143338,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 67,
+          "goalGetterID": 25019,
+          "goalGetterName": "In-beom Hwang",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143339,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 80,
+          "goalGetterID": 25020,
+          "goalGetterName": "Hyeon-gyu Oh",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1850,
+        "locationCity": "Guadalajara (Zapopan)",
+        "locationStadium": "Estadio Akron"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80101,
+      "matchDateTime": "2026-06-12T21:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-12T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 1645,
+        "teamName": "Kanada",
+        "shortName": "CAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 2671,
+        "teamName": "Bosnien und Herzegowina",
+        "shortName": "BIH",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T00:56:06.737",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125396,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125397,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143362,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 21,
+          "goalGetterID": 25022,
+          "goalGetterName": "Jovo Lukic",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143367,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 79,
+          "goalGetterID": 25023,
+          "goalGetterName": "Cyle Larin",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1851,
+        "locationCity": "Toronto",
+        "locationStadium": "BMO Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80102,
+      "matchDateTime": "2026-06-13T03:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-13T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 762,
+        "teamName": "USA",
+        "shortName": "USA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 756,
+        "teamName": "Paraguay",
+        "shortName": "PAR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T19:01:58.11",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125410,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 3,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125411,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 4,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143386,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 7,
+          "goalGetterID": 25025,
+          "goalGetterName": "Damián Bobadilla",
+          "isPenalty": false,
+          "isOwnGoal": true,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143387,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 31,
+          "goalGetterID": 22762,
+          "goalGetterName": "Folarin Balogun",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143388,
+          "scoreTeam1": 3,
+          "scoreTeam2": 0,
+          "matchMinute": 45,
+          "goalGetterID": 22762,
+          "goalGetterName": "Folarin Balogun",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        },
+        {
+          "goalID": 143389,
+          "scoreTeam1": 3,
+          "scoreTeam2": 1,
+          "matchMinute": 73,
+          "goalGetterID": 25026,
+          "goalGetterName": "Mauricio Prado",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143390,
+          "scoreTeam1": 4,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 17928,
+          "goalGetterName": "Giovanni Reyna",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1852,
+        "locationCity": "Los Angeles (Inglewood)",
+        "locationStadium": "SoFi Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80104,
+      "matchDateTime": "2026-06-13T21:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-13T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 4912,
+        "teamName": "Katar",
+        "shortName": "QAT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 38,
+        "teamName": "Schweiz",
+        "shortName": "CHE",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-16T23:04:17.433",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125425,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125426,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143414,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 17,
+          "goalGetterID": 16135,
+          "goalGetterName": "Breel Embolo",
+          "isPenalty": true,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143419,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 17132,
+          "goalGetterName": "Boualem Khoukhi",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1853,
+        "locationCity": "San Francisco (Santa Clara)",
+        "locationStadium": "Levi's Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80105,
+      "matchDateTime": "2026-06-14T00:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-13T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 753,
+        "teamName": "Brasilien",
+        "shortName": "BRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4629,
+        "teamName": "Marokko",
+        "shortName": "MAR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T02:12:49.94",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125433,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125434,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143421,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 21,
+          "goalGetterID": 26025,
+          "goalGetterName": "Ismael Saibari",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143423,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 32,
+          "goalGetterID": 19345,
+          "goalGetterName": "Vinicius Junior",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1854,
+        "locationCity": "New York/New Jersey (East Rutherford)",
+        "locationStadium": "MetLife Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80106,
+      "matchDateTime": "2026-06-14T03:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-14T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 5820,
+        "teamName": "Haiti",
+        "shortName": "HTI",
+        "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5271,
+        "teamName": "Schottland",
+        "shortName": "SCT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T16:24:28.843",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125435,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125436,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143426,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 28,
+          "goalGetterID": 26026,
+          "goalGetterName": "John McGinn",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1855,
+        "locationCity": "Boston (Foxborough)",
+        "locationStadium": "Gillette Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80103,
+      "matchDateTime": "2026-06-14T06:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-14T04:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 750,
+        "teamName": "Australien",
+        "shortName": "AUS",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 153,
+        "teamName": "Türkei",
+        "shortName": "TUR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T16:50:55.86",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125437,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125438,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 2,
+          "pointsTeam2": 0,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143427,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 27,
+          "goalGetterID": 26027,
+          "goalGetterName": "Nestory Irankunda",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143428,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 75,
+          "goalGetterID": 26028,
+          "goalGetterName": "Connor Metcalfe",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 990,
+        "locationCity": "Vancouver",
+        "locationStadium": "BC Place Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80107,
+      "matchDateTime": "2026-06-14T19:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-14T17:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 139,
+        "teamName": "Deutschland",
+        "shortName": "DEU",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7321,
+        "teamName": "Curaçao",
+        "shortName": "CUW",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T23:07:26.067",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125447,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 3,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125448,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 7,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143436,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 6,
+          "goalGetterID": 26030,
+          "goalGetterName": "Felix Nmecha",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143437,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 21,
+          "goalGetterID": 26034,
+          "goalGetterName": "Livano Comenencia",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143439,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 38,
+          "goalGetterID": 26031,
+          "goalGetterName": "Nico Schlotterbeck",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143440,
+          "scoreTeam1": 3,
+          "scoreTeam2": 1,
+          "matchMinute": 45,
+          "goalGetterID": 16261,
+          "goalGetterName": "Kai Havertz\r\n",
+          "isPenalty": true,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        },
+        {
+          "goalID": 143442,
+          "scoreTeam1": 4,
+          "scoreTeam2": 1,
+          "matchMinute": 47,
+          "goalGetterID": 20094,
+          "goalGetterName": "Jamal Musiala",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143443,
+          "scoreTeam1": 5,
+          "scoreTeam2": 1,
+          "matchMinute": 68,
+          "goalGetterID": 26032,
+          "goalGetterName": "Nathaniel Brown",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143444,
+          "scoreTeam1": 6,
+          "scoreTeam2": 1,
+          "matchMinute": 78,
+          "goalGetterID": 26033,
+          "goalGetterName": "Deniz Undav",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143445,
+          "scoreTeam1": 7,
+          "scoreTeam2": 1,
+          "matchMinute": 89,
+          "goalGetterID": 16261,
+          "goalGetterName": "Kai Havertz\r\n",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1857,
+        "locationCity": "Houston",
+        "locationStadium": "NRG Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80108,
+      "matchDateTime": "2026-06-14T22:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-14T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 4353,
+        "teamName": "Niederlande",
+        "shortName": "NLD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 749,
+        "teamName": "Japan",
+        "shortName": "JPN",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-15T00:05:44.327",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125454,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125455,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 2,
+          "pointsTeam2": 2,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143459,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 51,
+          "goalGetterID": 17312,
+          "goalGetterName": "Virgil van Dijk",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143462,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 57,
+          "goalGetterID": 26036,
+          "goalGetterName": "Keito Nakamuro",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143471,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 64,
+          "goalGetterID": 26037,
+          "goalGetterName": "Cyrensio Summerville",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143472,
+          "scoreTeam1": 2,
+          "scoreTeam2": 2,
+          "matchMinute": 88,
+          "goalGetterID": 26038,
+          "goalGetterName": "Daichi Kamada",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1858,
+        "locationCity": "Dallas (Arlington)",
+        "locationStadium": "AT&T Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80109,
+      "matchDateTime": "2026-06-15T01:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-14T23:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 4993,
+        "teamName": "Elfenbeinküste",
+        "shortName": "CIV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 2670,
+        "teamName": "Ecuador",
+        "shortName": "ECU",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-15T05:20:53.117",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125458,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125459,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 0,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143473,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 90,
+          "goalGetterID": 26043,
+          "goalGetterName": "Amad Diallo",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1301,
+        "locationCity": "Philadelphia",
+        "locationStadium": "Lincoln Financial Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80110,
+      "matchDateTime": "2026-06-15T04:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-15T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 151,
+        "teamName": "Schweden",
+        "shortName": "SWE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 1391,
+        "teamName": "Tunesien",
+        "shortName": "TUN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-16T23:04:09.073",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125460,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 2,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125461,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 5,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143474,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 7,
+          "goalGetterID": 26039,
+          "goalGetterName": "Yasin Ayari",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143477,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 30,
+          "goalGetterID": 26040,
+          "goalGetterName": "Alexander Isak",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143490,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 43,
+          "goalGetterID": 26041,
+          "goalGetterName": "Omar Rekik",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143480,
+          "scoreTeam1": 3,
+          "scoreTeam2": 1,
+          "matchMinute": 59,
+          "goalGetterID": 17825,
+          "goalGetterName": "Viktor Gyökeres",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143481,
+          "scoreTeam1": 4,
+          "scoreTeam2": 1,
+          "matchMinute": 86,
+          "goalGetterID": 26044,
+          "goalGetterName": "Mattias Svanberg",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143482,
+          "scoreTeam1": 5,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 26039,
+          "goalGetterName": "Yasin Ayari",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1860,
+        "locationCity": "Monterrey (Guadalupe)",
+        "locationStadium": "Estadio BBVA"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80111,
+      "matchDateTime": "2026-06-15T18:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-15T16:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 170,
+        "teamName": "Spanien",
+        "shortName": "ESP",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 6159,
+        "teamName": "Kap Verde",
+        "shortName": "CPV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-15T19:56:28.453",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125466,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125467,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [],
+      "location": {
+        "locationID": 1861,
+        "locationCity": "Atlanta",
+        "locationStadium": "Mercedes-Benz Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80112,
+      "matchDateTime": "2026-06-15T21:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-15T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 2673,
+        "teamName": "Belgien",
+        "shortName": "BEL",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4766,
+        "teamName": "Ägypten",
+        "shortName": "EGY",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-16T16:30:47.81",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125470,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125471,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143491,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 19,
+          "goalGetterID": 26045,
+          "goalGetterName": "Emam Ashour",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1862,
+        "locationCity": "Seattle",
+        "locationStadium": "Lumen Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80113,
+      "matchDateTime": "2026-06-16T00:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-15T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 4670,
+        "teamName": "Saudi Arabien",
+        "shortName": "SAU",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5593,
+        "teamName": "Uruguay",
+        "shortName": "URY",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-16T02:04:26.937",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125474,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125475,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143497,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 41,
+          "goalGetterID": 18923,
+          "goalGetterName": "Abdulelah Al-Amri",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143498,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 80,
+          "goalGetterID": 22763,
+          "goalGetterName": "Maximiliano Araújo",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1863,
+        "locationCity": "Miami (Miami Gardens)",
+        "locationStadium": "Hard Rock Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80114,
+      "matchDateTime": "2026-06-16T03:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-16T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 5570,
+        "teamName": "Iran",
+        "shortName": "IRN",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 846,
+        "teamName": "Neuseeland",
+        "shortName": "NZL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-16T08:30:35.757",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125478,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 1,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125479,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 2,
+          "pointsTeam2": 2,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143501,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 7,
+          "goalGetterID": 26049,
+          "goalGetterName": "Elijah Just",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143502,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 32,
+          "goalGetterID": 26050,
+          "goalGetterName": "Ramin Rezaeian",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143503,
+          "scoreTeam1": 1,
+          "scoreTeam2": 2,
+          "matchMinute": 55,
+          "goalGetterID": 26049,
+          "goalGetterName": "Elijah Just",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143504,
+          "scoreTeam1": 2,
+          "scoreTeam2": 2,
+          "matchMinute": 64,
+          "goalGetterID": 26051,
+          "goalGetterName": "Mohammed Mohebi",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1852,
+        "locationCity": "Los Angeles (Inglewood)",
+        "locationStadium": "SoFi Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80116,
+      "matchDateTime": "2026-06-16T21:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-16T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 1647,
+        "teamName": "Frankreich",
+        "shortName": "FRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4630,
+        "teamName": "Senegal",
+        "shortName": "SEN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-17T10:04:31.53",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125482,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 0,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125483,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 3,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143509,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 66,
+          "goalGetterID": 19243,
+          "goalGetterName": "Kylian Mbappé",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143512,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 82,
+          "goalGetterID": 22863,
+          "goalGetterName": "Bradley Barcola",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143514,
+          "scoreTeam1": 3,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 19243,
+          "goalGetterName": "Kylian Mbappé",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        },
+        {
+          "goalID": 143513,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 26052,
+          "goalGetterName": "Ibrahim MBaye",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1854,
+        "locationCity": "New York/New Jersey (East Rutherford)",
+        "locationStadium": "MetLife Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80117,
+      "matchDateTime": "2026-06-17T00:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-16T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 7434,
+        "teamName": "Irak",
+        "shortName": "IRQ",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 1396,
+        "teamName": "Norwegen",
+        "shortName": "NOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-17T07:14:23.293",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125486,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 2,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125487,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 1,
+          "pointsTeam2": 4,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143533,
+          "scoreTeam1": 0,
+          "scoreTeam2": 1,
+          "matchMinute": 29,
+          "goalGetterID": 18204,
+          "goalGetterName": "Erling Haarland",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143537,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 39,
+          "goalGetterID": 26056,
+          "goalGetterName": "Ayman Hussein",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143538,
+          "scoreTeam1": 1,
+          "scoreTeam2": 2,
+          "matchMinute": 43,
+          "goalGetterID": 18204,
+          "goalGetterName": "Erling Haarland",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143539,
+          "scoreTeam1": 1,
+          "scoreTeam2": 3,
+          "matchMinute": 76,
+          "goalGetterID": 23405,
+          "goalGetterName": "Leo Østigård",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143540,
+          "scoreTeam1": 1,
+          "scoreTeam2": 4,
+          "matchMinute": 90,
+          "goalGetterID": 26055,
+          "goalGetterName": "Kristian Thorstvedt",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1855,
+        "locationCity": "Boston (Foxborough)",
+        "locationStadium": "Gillette Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80118,
+      "matchDateTime": "2026-06-17T03:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-17T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 764,
+        "teamName": "Argentinien",
+        "shortName": "ARG",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7322,
+        "teamName": "Algerien",
+        "shortName": "DZA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-17T09:33:04.947",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125493,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125494,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 3,
+          "pointsTeam2": 0,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143541,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 17,
+          "goalGetterID": 1989,
+          "goalGetterName": "Lionel Messi",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143542,
+          "scoreTeam1": 2,
+          "scoreTeam2": 0,
+          "matchMinute": 60,
+          "goalGetterID": 1989,
+          "goalGetterName": "Lionel Messi",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143543,
+          "scoreTeam1": 3,
+          "scoreTeam2": 0,
+          "matchMinute": 76,
+          "goalGetterID": 1989,
+          "goalGetterName": "Lionel Messi",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1864,
+        "locationCity": "Kansas City",
+        "locationStadium": "Arrowhead Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80115,
+      "matchDateTime": "2026-06-17T06:00:00",
+      "timeZoneID": null,
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-17T04:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 37,
+        "teamName": "Österreich",
+        "shortName": "AUT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7323,
+        "teamName": "Jordanien",
+        "shortName": "JOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-17T10:04:46.987",
+      "matchIsFinished": true,
+      "matchResults": [
+        {
+          "resultID": 125499,
+          "resultName": "Halbzeit",
+          "pointsTeam1": 1,
+          "pointsTeam2": 0,
+          "resultOrderID": 1,
+          "resultTypeID": 1,
+          "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+        },
+        {
+          "resultID": 125500,
+          "resultName": "Endergebnis",
+          "pointsTeam1": 3,
+          "pointsTeam2": 1,
+          "resultOrderID": 2,
+          "resultTypeID": 2,
+          "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+        }
+      ],
+      "goals": [
+        {
+          "goalID": 143552,
+          "scoreTeam1": 1,
+          "scoreTeam2": 0,
+          "matchMinute": 21,
+          "goalGetterID": 22770,
+          "goalGetterName": "Romano Schmid",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143553,
+          "scoreTeam1": 1,
+          "scoreTeam2": 1,
+          "matchMinute": 50,
+          "goalGetterID": 26057,
+          "goalGetterName": "Ali Olwan",
+          "isPenalty": false,
+          "isOwnGoal": false,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143555,
+          "scoreTeam1": 2,
+          "scoreTeam2": 1,
+          "matchMinute": 76,
+          "goalGetterID": 26058,
+          "goalGetterName": "Yazan Al-Arab",
+          "isPenalty": false,
+          "isOwnGoal": true,
+          "isOvertime": false,
+          "comment": null
+        },
+        {
+          "goalID": 143557,
+          "scoreTeam1": 3,
+          "scoreTeam2": 1,
+          "matchMinute": 90,
+          "goalGetterID": 17141,
+          "goalGetterName": "Marko Arnautovic",
+          "isPenalty": true,
+          "isOwnGoal": false,
+          "isOvertime": true,
+          "comment": null
+        }
+      ],
+      "location": {
+        "locationID": 1853,
+        "locationCity": "San Francisco (Santa Clara)",
+        "locationStadium": "Levi's Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80119,
+      "matchDateTime": "2026-06-17T19:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-17T17:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 3198,
+        "teamName": "Portugal",
+        "shortName": "PRT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4991,
+        "teamName": "DR Kongo",
+        "shortName": "COD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:20:40.79",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1857,
+        "locationCity": "Houston",
+        "locationStadium": "NRG Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80120,
+      "matchDateTime": "2026-06-17T22:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-17T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 755,
+        "teamName": "England",
+        "shortName": "ENG",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7325,
+        "teamName": "Kroatien",
+        "shortName": "HRV",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:20:57.257",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1858,
+        "locationCity": "Dallas (Arlington)",
+        "locationStadium": "AT&T Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80121,
+      "matchDateTime": "2026-06-18T01:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-17T23:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 754,
+        "teamName": "Ghana",
+        "shortName": "GHA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4631,
+        "teamName": "Panama",
+        "shortName": "PAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:21:11.04",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1851,
+        "locationCity": "Toronto",
+        "locationStadium": "BMO Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80122,
+      "matchDateTime": "2026-06-18T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-18T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 1",
+        "groupOrderID": 1,
+        "groupID": 49767
+      },
+      "team1": {
+        "teamId": 7324,
+        "teamName": "Usbekistan",
+        "shortName": "UZB",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 1469,
+        "teamName": "Kolumbien",
+        "shortName": "COL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:21:27.133",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1849,
+        "locationCity": "Mexico City",
+        "locationStadium": "Azteca"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80124,
+      "matchDateTime": "2026-06-18T18:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-18T16:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 141,
+        "teamName": "Tschechien",
+        "shortName": "CZE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 677,
+        "teamName": "Südafrika",
+        "shortName": "RSA",
+        "teamIconUrl": "https://awiealex.de/flags/za.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:24:03.42",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1861,
+        "locationCity": "Atlanta",
+        "locationStadium": "Mercedes-Benz Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80125,
+      "matchDateTime": "2026-06-18T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-18T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 38,
+        "teamName": "Schweiz",
+        "shortName": "CHE",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 2671,
+        "teamName": "Bosnien und Herzegowina",
+        "shortName": "BIH",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:24:19.253",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1852,
+        "locationCity": "Los Angeles (Inglewood)",
+        "locationStadium": "SoFi Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80126,
+      "matchDateTime": "2026-06-19T00:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-18T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 1645,
+        "teamName": "Kanada",
+        "shortName": "CAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4912,
+        "teamName": "Katar",
+        "shortName": "QAT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:25:27.347",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 990,
+        "locationCity": "Vancouver",
+        "locationStadium": "BC Place Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80127,
+      "matchDateTime": "2026-06-19T03:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-19T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 761,
+        "teamName": "Mexiko",
+        "shortName": "MEX",
+        "teamIconUrl": "https://awiealex.de/flags/mx.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 751,
+        "teamName": "Südkorea",
+        "shortName": "KOR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:25:52.333",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1850,
+        "locationCity": "Guadalajara (Zapopan)",
+        "locationStadium": "Estadio Akron"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80129,
+      "matchDateTime": "2026-06-19T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-19T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 762,
+        "teamName": "USA",
+        "shortName": "USA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 750,
+        "teamName": "Australien",
+        "shortName": "AUS",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:26:01.793",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1862,
+        "locationCity": "Seattle",
+        "locationStadium": "Lumen Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80130,
+      "matchDateTime": "2026-06-20T00:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-19T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 5271,
+        "teamName": "Schottland",
+        "shortName": "SCT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4629,
+        "teamName": "Marokko",
+        "shortName": "MAR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:26:11.523",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1855,
+        "locationCity": "Boston (Foxborough)",
+        "locationStadium": "Gillette Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80131,
+      "matchDateTime": "2026-06-20T02:30:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-20T00:30:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 753,
+        "teamName": "Brasilien",
+        "shortName": "BRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5820,
+        "teamName": "Haiti",
+        "shortName": "HTI",
+        "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:26:25.94",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1301,
+        "locationCity": "Philadelphia",
+        "locationStadium": "Lincoln Financial Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80128,
+      "matchDateTime": "2026-06-20T05:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-20T03:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 153,
+        "teamName": "Türkei",
+        "shortName": "TUR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 756,
+        "teamName": "Paraguay",
+        "shortName": "PAR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:27:06.367",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1853,
+        "locationCity": "San Francisco (Santa Clara)",
+        "locationStadium": "Levi's Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80133,
+      "matchDateTime": "2026-06-20T19:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-20T17:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 4353,
+        "teamName": "Niederlande",
+        "shortName": "NLD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 151,
+        "teamName": "Schweden",
+        "shortName": "SWE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:27:14.757",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1857,
+        "locationCity": "Houston",
+        "locationStadium": "NRG Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80134,
+      "matchDateTime": "2026-06-20T22:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-20T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 139,
+        "teamName": "Deutschland",
+        "shortName": "DEU",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4993,
+        "teamName": "Elfenbeinküste",
+        "shortName": "CIV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:27:25.467",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1851,
+        "locationCity": "Toronto",
+        "locationStadium": "BMO Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80135,
+      "matchDateTime": "2026-06-21T02:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-21T00:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 2670,
+        "teamName": "Ecuador",
+        "shortName": "ECU",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7321,
+        "teamName": "Curaçao",
+        "shortName": "CUW",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:27:36",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1864,
+        "locationCity": "Kansas City",
+        "locationStadium": "Arrowhead Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80132,
+      "matchDateTime": "2026-06-21T06:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-21T04:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 1391,
+        "teamName": "Tunesien",
+        "shortName": "TUN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 749,
+        "teamName": "Japan",
+        "shortName": "JPN",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:27:49.897",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1860,
+        "locationCity": "Monterrey (Guadalupe)",
+        "locationStadium": "Estadio BBVA"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80136,
+      "matchDateTime": "2026-06-21T18:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-21T16:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 170,
+        "teamName": "Spanien",
+        "shortName": "ESP",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4670,
+        "teamName": "Saudi Arabien",
+        "shortName": "SAU",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:28:02.873",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1861,
+        "locationCity": "Atlanta",
+        "locationStadium": "Mercedes-Benz Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80137,
+      "matchDateTime": "2026-06-21T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-21T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 2673,
+        "teamName": "Belgien",
+        "shortName": "BEL",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5570,
+        "teamName": "Iran",
+        "shortName": "IRN",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:28:17.997",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1852,
+        "locationCity": "Los Angeles (Inglewood)",
+        "locationStadium": "SoFi Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80138,
+      "matchDateTime": "2026-06-22T00:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-21T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 5593,
+        "teamName": "Uruguay",
+        "shortName": "URY",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 6159,
+        "teamName": "Kap Verde",
+        "shortName": "CPV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:28:28.313",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1863,
+        "locationCity": "Miami (Miami Gardens)",
+        "locationStadium": "Hard Rock Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80139,
+      "matchDateTime": "2026-06-22T03:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-22T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 846,
+        "teamName": "Neuseeland",
+        "shortName": "NZL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4766,
+        "teamName": "Ägypten",
+        "shortName": "EGY",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:28:40.273",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 990,
+        "locationCity": "Vancouver",
+        "locationStadium": "BC Place Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80140,
+      "matchDateTime": "2026-06-22T19:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-22T17:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 764,
+        "teamName": "Argentinien",
+        "shortName": "ARG",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 37,
+        "teamName": "Österreich",
+        "shortName": "AUT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:28:53.15",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1858,
+        "locationCity": "Dallas (Arlington)",
+        "locationStadium": "AT&T Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80141,
+      "matchDateTime": "2026-06-22T23:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-22T21:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 1647,
+        "teamName": "Frankreich",
+        "shortName": "FRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7434,
+        "teamName": "Irak",
+        "shortName": "IRQ",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:29:06.813",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1301,
+        "locationCity": "Philadelphia",
+        "locationStadium": "Lincoln Financial Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80142,
+      "matchDateTime": "2026-06-23T02:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-23T00:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 1396,
+        "teamName": "Norwegen",
+        "shortName": "NOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4630,
+        "teamName": "Senegal",
+        "shortName": "SEN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:29:18.547",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1854,
+        "locationCity": "New York/New Jersey (East Rutherford)",
+        "locationStadium": "MetLife Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80143,
+      "matchDateTime": "2026-06-23T05:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-23T03:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 7323,
+        "teamName": "Jordanien",
+        "shortName": "JOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7322,
+        "teamName": "Algerien",
+        "shortName": "DZA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:29:35.447",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1853,
+        "locationCity": "San Francisco (Santa Clara)",
+        "locationStadium": "Levi's Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80144,
+      "matchDateTime": "2026-06-23T19:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-23T17:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 3198,
+        "teamName": "Portugal",
+        "shortName": "PRT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7324,
+        "teamName": "Usbekistan",
+        "shortName": "UZB",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:29:43.907",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1857,
+        "locationCity": "Houston",
+        "locationStadium": "NRG Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80145,
+      "matchDateTime": "2026-06-23T22:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-23T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 755,
+        "teamName": "England",
+        "shortName": "ENG",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 754,
+        "teamName": "Ghana",
+        "shortName": "GHA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:29:52.493",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1855,
+        "locationCity": "Boston (Foxborough)",
+        "locationStadium": "Gillette Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80146,
+      "matchDateTime": "2026-06-24T01:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-23T23:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 4631,
+        "teamName": "Panama",
+        "shortName": "PAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7325,
+        "teamName": "Kroatien",
+        "shortName": "HRV",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:30:01.507",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1851,
+        "locationCity": "Toronto",
+        "locationStadium": "BMO Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80147,
+      "matchDateTime": "2026-06-24T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-24T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 2",
+        "groupOrderID": 2,
+        "groupID": 49773
+      },
+      "team1": {
+        "teamId": 1469,
+        "teamName": "Kolumbien",
+        "shortName": "COL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4991,
+        "teamName": "DR Kongo",
+        "shortName": "COD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:30:11.197",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1850,
+        "locationCity": "Guadalajara (Zapopan)",
+        "locationStadium": "Estadio Akron"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80148,
+      "matchDateTime": "2026-06-24T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-24T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 38,
+        "teamName": "Schweiz",
+        "shortName": "CHE",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 1645,
+        "teamName": "Kanada",
+        "shortName": "CAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:31:54.483",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 990,
+        "locationCity": "Vancouver",
+        "locationStadium": "BC Place Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80149,
+      "matchDateTime": "2026-06-24T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-24T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 2671,
+        "teamName": "Bosnien und Herzegowina",
+        "shortName": "BIH",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4912,
+        "teamName": "Katar",
+        "shortName": "QAT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:32:03.027",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1862,
+        "locationCity": "Seattle",
+        "locationStadium": "Lumen Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80150,
+      "matchDateTime": "2026-06-25T00:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-24T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 4629,
+        "teamName": "Marokko",
+        "shortName": "MAR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5820,
+        "teamName": "Haiti",
+        "shortName": "HTI",
+        "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:32:23.157",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1861,
+        "locationCity": "Atlanta",
+        "locationStadium": "Mercedes-Benz Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80151,
+      "matchDateTime": "2026-06-25T00:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-24T22:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 5271,
+        "teamName": "Schottland",
+        "shortName": "SCT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 753,
+        "teamName": "Brasilien",
+        "shortName": "BRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:32:38.613",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1863,
+        "locationCity": "Miami (Miami Gardens)",
+        "locationStadium": "Hard Rock Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80152,
+      "matchDateTime": "2026-06-25T03:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 677,
+        "teamName": "Südafrika",
+        "shortName": "RSA",
+        "teamIconUrl": "https://awiealex.de/flags/za.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 751,
+        "teamName": "Südkorea",
+        "shortName": "KOR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:33:06.413",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1860,
+        "locationCity": "Monterrey (Guadalupe)",
+        "locationStadium": "Estadio BBVA"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80153,
+      "matchDateTime": "2026-06-25T03:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T01:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 141,
+        "teamName": "Tschechien",
+        "shortName": "CZE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 761,
+        "teamName": "Mexiko",
+        "shortName": "MEX",
+        "teamIconUrl": "https://awiealex.de/flags/mx.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:32:51.523",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1849,
+        "locationCity": "Mexico City",
+        "locationStadium": "Azteca"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80154,
+      "matchDateTime": "2026-06-25T22:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 7321,
+        "teamName": "Curaçao",
+        "shortName": "CUW",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4993,
+        "teamName": "Elfenbeinküste",
+        "shortName": "CIV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:33:36.113",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1301,
+        "locationCity": "Philadelphia",
+        "locationStadium": "Lincoln Financial Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80155,
+      "matchDateTime": "2026-06-25T22:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T20:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 2670,
+        "teamName": "Ecuador",
+        "shortName": "ECU",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 139,
+        "teamName": "Deutschland",
+        "shortName": "DEU",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:33:19.693",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1854,
+        "locationCity": "New York/New Jersey (East Rutherford)",
+        "locationStadium": "MetLife Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80156,
+      "matchDateTime": "2026-06-26T01:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T23:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 1391,
+        "teamName": "Tunesien",
+        "shortName": "TUN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4353,
+        "teamName": "Niederlande",
+        "shortName": "NLD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:34:03.25",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1864,
+        "locationCity": "Kansas City",
+        "locationStadium": "Arrowhead Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80157,
+      "matchDateTime": "2026-06-26T01:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-25T23:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 749,
+        "teamName": "Japan",
+        "shortName": "JPN",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 151,
+        "teamName": "Schweden",
+        "shortName": "SWE",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:34:15.687",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1858,
+        "locationCity": "Dallas (Arlington)",
+        "locationStadium": "AT&T Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80158,
+      "matchDateTime": "2026-06-26T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-26T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 153,
+        "teamName": "Türkei",
+        "shortName": "TUR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 762,
+        "teamName": "USA",
+        "shortName": "USA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:34:32.68",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1852,
+        "locationCity": "Los Angeles (Inglewood)",
+        "locationStadium": "SoFi Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80159,
+      "matchDateTime": "2026-06-26T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-26T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 756,
+        "teamName": "Paraguay",
+        "shortName": "PAR",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 750,
+        "teamName": "Australien",
+        "shortName": "AUS",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:34:44.573",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1853,
+        "locationCity": "San Francisco (Santa Clara)",
+        "locationStadium": "Levi's Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80160,
+      "matchDateTime": "2026-06-26T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-26T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 1396,
+        "teamName": "Norwegen",
+        "shortName": "NOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 1647,
+        "teamName": "Frankreich",
+        "shortName": "FRA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:34:56.457",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1855,
+        "locationCity": "Boston (Foxborough)",
+        "locationStadium": "Gillette Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80161,
+      "matchDateTime": "2026-06-26T21:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-26T19:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 4630,
+        "teamName": "Senegal",
+        "shortName": "SEN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7434,
+        "teamName": "Irak",
+        "shortName": "IRQ",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:35:06.75",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1851,
+        "locationCity": "Toronto",
+        "locationStadium": "BMO Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80162,
+      "matchDateTime": "2026-06-27T02:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T00:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 6159,
+        "teamName": "Kap Verde",
+        "shortName": "CPV",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 4670,
+        "teamName": "Saudi Arabien",
+        "shortName": "SAU",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:35:36.85",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1857,
+        "locationCity": "Houston",
+        "locationStadium": "NRG Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80163,
+      "matchDateTime": "2026-06-27T02:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T00:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 5593,
+        "teamName": "Uruguay",
+        "shortName": "URY",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 170,
+        "teamName": "Spanien",
+        "shortName": "ESP",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:35:26.533",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1850,
+        "locationCity": "Guadalajara (Zapopan)",
+        "locationStadium": "Estadio Akron"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80164,
+      "matchDateTime": "2026-06-27T05:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T03:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 846,
+        "teamName": "Neuseeland",
+        "shortName": "NZL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 2673,
+        "teamName": "Belgien",
+        "shortName": "BEL",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:35:53.957",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 990,
+        "locationCity": "Vancouver",
+        "locationStadium": "BC Place Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80165,
+      "matchDateTime": "2026-06-27T05:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T03:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 4766,
+        "teamName": "Ägypten",
+        "shortName": "EGY",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 5570,
+        "teamName": "Iran",
+        "shortName": "IRN",
+        "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:36:06.09",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1862,
+        "locationCity": "Seattle",
+        "locationStadium": "Lumen Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80166,
+      "matchDateTime": "2026-06-27T23:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T21:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 4631,
+        "teamName": "Panama",
+        "shortName": "PAN",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 755,
+        "teamName": "England",
+        "shortName": "ENG",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:36:18.99",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1854,
+        "locationCity": "New York/New Jersey (East Rutherford)",
+        "locationStadium": "MetLife Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80167,
+      "matchDateTime": "2026-06-27T23:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T21:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 7325,
+        "teamName": "Kroatien",
+        "shortName": "HRV",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 754,
+        "teamName": "Ghana",
+        "shortName": "GHA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:36:28.873",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1301,
+        "locationCity": "Philadelphia",
+        "locationStadium": "Lincoln Financial Field"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80168,
+      "matchDateTime": "2026-06-28T01:30:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T23:30:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 1469,
+        "teamName": "Kolumbien",
+        "shortName": "COL",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 3198,
+        "teamName": "Portugal",
+        "shortName": "PRT",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:36:38.67",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1863,
+        "locationCity": "Miami (Miami Gardens)",
+        "locationStadium": "Hard Rock Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80169,
+      "matchDateTime": "2026-06-28T01:30:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-27T23:30:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 4991,
+        "teamName": "DR Kongo",
+        "shortName": "COD",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 7324,
+        "teamName": "Usbekistan",
+        "shortName": "UZB",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:36:50.307",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1861,
+        "locationCity": "Atlanta",
+        "locationStadium": "Mercedes-Benz Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80170,
+      "matchDateTime": "2026-06-28T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-28T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 7322,
+        "teamName": "Algerien",
+        "shortName": "DZA",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 37,
+        "teamName": "Österreich",
+        "shortName": "AUT",
+        "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:37:01.633",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1864,
+        "locationCity": "Kansas City",
+        "locationStadium": "Arrowhead Stadium"
+      },
+      "numberOfViewers": null
+    },
+    {
+      "matchID": 80171,
+      "matchDateTime": "2026-06-28T04:00:00",
+      "timeZoneID": "W. Europe Standard Time",
+      "leagueId": 4897,
+      "leagueName": "WM 2026",
+      "leagueSeason": 2026,
+      "leagueShortcut": "wm26",
+      "matchDateTimeUTC": "2026-06-28T02:00:00Z",
+      "group": {
+        "groupName": "Gruppenphase 3",
+        "groupOrderID": 3,
+        "groupID": 49774
+      },
+      "team1": {
+        "teamId": 7323,
+        "teamName": "Jordanien",
+        "shortName": "JOR",
+        "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+        "teamGroupName": null
+      },
+      "team2": {
+        "teamId": 764,
+        "teamName": "Argentinien",
+        "shortName": "ARG",
+        "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+        "teamGroupName": null
+      },
+      "lastUpdateDateTime": "2026-06-14T01:37:14.623",
+      "matchIsFinished": false,
+      "matchResults": [],
+      "goals": [],
+      "location": {
+        "locationID": 1858,
+        "locationCity": "Dallas (Arlington)",
+        "locationStadium": "AT&T Stadium"
+      },
+      "numberOfViewers": null
+    }
+  ]
+};
