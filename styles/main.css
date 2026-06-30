@@ -256,6 +256,10 @@ body {
   transition: box-shadow .15s, border-color .15s;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 .match-card:hover { box-shadow: var(--shadow2); border-color: #cdd2db; }
 .match-card::before {
@@ -279,6 +283,15 @@ body {
   padding-left: 4px;
 }
 .venue-text { font-size: 11px; color: var(--muted); }
+.match-hosp-hint {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--blue);
+  letter-spacing: .02em;
+  opacity: 0;
+  transition: opacity .15s;
+}
+.match-card:hover .match-hosp-hint { opacity: 1; }
 
 .match-body {
   display: grid;
@@ -410,6 +423,9 @@ body {
   padding: 9px 14px;
   border-bottom: 1px solid var(--border);
   position: relative;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 .match-row:last-child { border-bottom: none; }
 .match-row::before {
@@ -426,6 +442,7 @@ body {
 }
 .mr-team2 { flex-direction: row-reverse; }
 .mr-name  { font-size: 13px; font-weight: 600; color: var(--text); }
+.match-row:hover { background: #f7f9fc; }
 .mr-center {
   display: flex; flex-direction: column; align-items: center;
   gap: 2px; min-width: 80px; text-align: center;

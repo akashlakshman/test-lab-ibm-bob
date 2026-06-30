@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Hospitality — WM 2026 Match Centre</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/match.css">
+</head>
+<body data-page="match" data-root="../">
+
+<!-- ── Top bar ──────────────────────────────────────────────────────────── -->
+<div class="topbar">
+  <div class="topbar-brand">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+    </svg>
+    World Cup 2026
+  </div>
+  <div class="topbar-right">
+    <span id="source-badge" style="display:none"></span>
+  </div>
+</div>
+
+<!-- ── Hero (minimal — match.js fills the title) ────────────────────────── -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">FIFA World Cup · USA, Canada &amp; Mexico</div>
+    <h1 class="hero-title">Match<br>Hospitality</h1>
+
+    <nav class="tab-nav" role="navigation">
+      <a class="tab-btn" href="overview.html">Overview</a>
+      <a class="tab-btn" href="matches.html">Matches</a>
+      <a class="tab-btn" href="table.html">Table</a>
+      <a class="tab-btn" href="knockout.html">Knockout</a>
+      <a class="tab-btn" href="stats.html">Stats</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ── Body canvas ──────────────────────────────────────────────────────── -->
+<div class="body-canvas">
+  <div class="page-inner">
+    <a class="md-back" href="javascript:history.back()">← Back</a>
+    <div id="match-detail"></div>
+  </div>
+</div>
+
+<script src="../data/openligadb-wm26-2026.mock.js"></script>
+<script src="../scripts/match.js"></script>
+</body>
+</html>

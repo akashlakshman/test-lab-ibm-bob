@@ -1,0 +1,495 @@
+/* ── Match detail page styles ───────────────────────────────────────────── */
+/* Inherits all tokens from main.css (:root, body, .topbar, .hero, etc.)    */
+
+/* ── Back link ─────────────────────────────────────────────────────────── */
+.md-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 8px 0 16px;
+}
+.md-back:hover { color: var(--blue2); }
+
+/* ── Match hero block ───────────────────────────────────────────────────── */
+.md-hero {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 28px 24px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+.md-match-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.md-teams-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+.md-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.md-team .team-flag {
+  width: 52px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.md-team .flag-fallback {
+  width: 52px;
+  height: 36px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.md-team-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Center column */
+.md-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 120px;
+}
+
+.md-score-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.md-score-num {
+  font-size: 44px;
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: -.03em;
+  line-height: 1;
+}
+.md-score-sep {
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--muted);
+}
+.md-ht {
+  font-size: 11px;
+  color: var(--muted);
+}
+.md-live-badge {
+  background: var(--red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  padding: 3px 10px;
+  border-radius: 10px;
+  animation: pulse 1.1s ease-in-out infinite;
+}
+.md-kickoff {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--blue);
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Goal scorers under match hero */
+.md-goals-section {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.md-goals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.md-goals-list {
+  list-style: none;
+  font-size: 12px;
+  color: var(--sub);
+  line-height: 1.8;
+}
+.md-goals-list li { padding: 1px 0; }
+.md-goals-t1 { text-align: left; }
+.md-goals-t2 { text-align: right; }
+.md-no-goals { color: var(--muted); }
+.md-minute { color: var(--blue); font-weight: 700; }
+
+/* ── Hospitality section nav ────────────────────────────────────────────── */
+.md-hosp-nav {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-bottom: 24px;
+}
+.md-hosp-nav::-webkit-scrollbar { display: none; }
+.md-hosp-nav-link {
+  flex-shrink: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--sub);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: background .15s, color .15s, border-color .15s;
+  white-space: nowrap;
+}
+.md-hosp-nav-link:hover {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+.md-hosp-nav-cta {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: #fff;
+}
+.md-hosp-nav-cta:hover { background: var(--blue2); border-color: var(--blue2); }
+
+/* ── Hospitality sections ───────────────────────────────────────────────── */
+.md-hosp-body { display: flex; flex-direction: column; gap: 24px; }
+
+.hosp-section {
+  scroll-margin-top: 80px;
+}
+
+.hosp-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.hosp-icon { font-size: 20px; line-height: 1; }
+.hosp-section-title {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.hosp-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+.hosp-no-info {
+  color: var(--sub);
+  font-size: 13px;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+/* Tickets */
+.hosp-ticket-card { }
+.hosp-ticket-note {
+  font-size: 13px;
+  color: var(--sub);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.hosp-ticket-tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.hosp-ticket-tier {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hosp-tier-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tier-luxury  { background: rgba(245,166,35,.15); color: #b07d10; border: 1px solid rgba(245,166,35,.4); }
+.tier-premium { background: rgba(10,132,255,.1);  color: var(--blue); border: 1px solid rgba(10,132,255,.3); }
+.tier-comfort { background: rgba(0,184,122,.1);   color: #008a5a; border: 1px solid rgba(0,184,122,.3); }
+.hosp-tier-desc { font-size: 12px; color: var(--sub); }
+
+.hosp-cta-btn {
+  display: inline-block;
+  background: var(--hero);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  transition: background .15s;
+}
+.hosp-cta-btn:hover { background: var(--hero2); }
+
+/* Hotels */
+.hosp-hotel-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hosp-hotel-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+.hosp-hotel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.hosp-hotel-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+.hosp-hotel-area {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Transport */
+.hosp-transport-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hosp-transport-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--sub);
+  line-height: 1.5;
+}
+.hosp-transport-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+/* Flights */
+.hosp-airport-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+.hosp-airlines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.hosp-airline-pill {
+  background: var(--canvas);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sub);
+}
+.hosp-flight-note {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.hosp-flight-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.hosp-link-btn {
+  display: inline-block;
+  background: var(--canvas);
+  border: 1.5px solid var(--blue);
+  color: var(--blue);
+  text-decoration: none;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  transition: background .15s, color .15s;
+}
+.hosp-link-btn:hover { background: var(--blue); color: #fff; }
+
+/* ── All-in-one package CTA ─────────────────────────────────────────────── */
+.hosp-package-cta {
+  background: var(--hero);
+  border-radius: var(--r);
+  overflow: hidden;
+  position: relative;
+}
+.hosp-package-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(10,132,255,.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hosp-package-inner {
+  position: relative;
+  padding: 32px 28px;
+  text-align: center;
+}
+.hosp-package-title {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.hosp-package-sub {
+  font-size: 13px;
+  color: rgba(255,255,255,.6);
+  margin-bottom: 20px;
+}
+.hosp-package-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.hosp-feature {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,.85);
+  white-space: nowrap;
+}
+.hosp-package-btn {
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  transition: background .15s;
+}
+.hosp-package-btn:hover { background: var(--blue2); }
+
+/* ── Enquiry form ────────────────────────────────────────────────────────── */
+.hosp-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  text-align: left;
+}
+.hosp-form-row {
+  display: flex;
+  gap: 10px;
+}
+.hosp-form-row .hosp-input { flex: 1; min-width: 0; }
+.hosp-input {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,.08);
+  border: 1.5px solid rgba(255,255,255,.18);
+  border-radius: 10px;
+  padding: 11px 14px;
+  font-size: 13px;
+  color: #fff;
+  font-family: inherit;
+  outline: none;
+  transition: border-color .15s;
+}
+.hosp-input::placeholder { color: rgba(255,255,255,.35); }
+.hosp-input:focus { border-color: var(--blue); }
+.hosp-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+.hosp-submit-btn {
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+.hosp-form-note {
+  font-size: 11px;
+  color: rgba(255,255,255,.4);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* ── Error / loading states ─────────────────────────────────────────────── */
+.md-error {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--red);
+  font-size: 15px;
+}
+.md-error a { color: var(--blue); }
+.md-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--sub);
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 520px) {
+  .md-hero { padding: 20px 16px; }
+  .md-score-num { font-size: 32px; }
+  .md-team-name { font-size: 13px; }
+  .md-team .team-flag { width: 36px; height: 25px; }
+  .md-team .flag-fallback { width: 36px; height: 25px; font-size: 9px; }
+  .md-teams-row { gap: 6px; }
+  .md-center { min-width: 80px; }
+  .hosp-package-inner { padding: 24px 16px; }
+  .hosp-package-features { gap: 6px; }
+}

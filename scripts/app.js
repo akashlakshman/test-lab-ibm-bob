@@ -125,10 +125,12 @@
       ? `${match.location.locationCity}${match.location.locationStadium ? ' · ' + match.location.locationStadium : ''}`
       : '';
 
+    const detailHref = (document.body.dataset.root || '') + 'pages/match.html?id=' + match.matchID;
     return `
-      <div class="match-card is-${status}">
+      <a class="match-card is-${status}" href="${detailHref}">
         <div class="match-meta">
           <span class="venue-text">${venue}</span>
+          <span class="match-hosp-hint">Tickets &amp; Hotels →</span>
         </div>
         <div class="match-body">
           <div class="team team1">
@@ -144,7 +146,7 @@
           </div>
         </div>
         ${goalsRow}
-      </div>`;
+      </a>`;
   }
 
   // ── Compact match row (used in Overview summary list) ─────────────────────
@@ -163,8 +165,9 @@
       mid = `<span class="mr-time">${fmtTime(dt)}</span><span class="mr-date">${fmtDate(dt)}</span>`;
     }
 
+    const detailHref = (document.body.dataset.root || '') + 'pages/match.html?id=' + match.matchID;
     return `
-      <div class="match-row is-${status}">
+      <a class="match-row is-${status}" href="${detailHref}">
         <div class="mr-team mr-team1">
           ${flagImg(match.team1, 'xs')}
           <span class="mr-name">${match.team1.shortName || match.team1.teamName}</span>
@@ -174,7 +177,7 @@
           <span class="mr-name">${match.team2.shortName || match.team2.teamName}</span>
           ${flagImg(match.team2, 'xs')}
         </div>
-      </div>`;
+      </a>`;
   }
 
   // ── Build sorted stage map ────────────────────────────────────────────────
