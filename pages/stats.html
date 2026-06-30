@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=pages/overview.html">
-  <title>WM 2026 Match Centre</title>
-  <link rel="stylesheet" href="styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats — WM 2026 Match Centre</title>
+  <link rel="stylesheet" href="../styles/main.css">
 </head>
-<body data-page="overview" data-root="">
+<body data-page="stats" data-root="../">
 
 <!-- ── Top bar ──────────────────────────────────────────────────────────── -->
 <div class="topbar">
@@ -26,15 +26,15 @@
 <div class="hero">
   <div class="hero-inner">
     <div class="hero-eyebrow">FIFA World Cup · USA, Canada &amp; Mexico</div>
-    <h1 class="hero-title">World Cup<br>Overview</h1>
+    <h1 class="hero-title">Tournament<br>Stats</h1>
     <p class="hero-sub" id="last-updated">Loading match data…</p>
 
     <nav class="tab-nav" role="navigation">
-      <a class="tab-btn active"  href="pages/overview.html">Overview</a>
-      <a class="tab-btn"         href="pages/matches.html">Matches</a>
-      <a class="tab-btn"         href="pages/table.html">Table</a>
-      <a class="tab-btn"         href="pages/knockout.html">Knockout</a>
-      <a class="tab-btn"         href="pages/stats.html">Stats</a>
+      <a class="tab-btn"          href="overview.html">Overview</a>
+      <a class="tab-btn"          href="matches.html">Matches</a>
+      <a class="tab-btn"          href="table.html">Table</a>
+      <a class="tab-btn"          href="knockout.html">Knockout</a>
+      <a class="tab-btn active"   href="stats.html">Stats</a>
     </nav>
   </div>
 </div>
@@ -43,11 +43,11 @@
 <div class="body-canvas">
   <div class="page-inner">
     <div id="status-msg"></div>
-    <section class="tab-panel active" id="tab-overview"></section>
+    <section class="tab-panel active" id="tab-stats"></section>
   </div>
 </div>
 
-<script src="data/openligadb-wm26-2026.mock.js"></script>
-<script src="scripts/app.js"></script>
+<script src="../data/openligadb-wm26-2026.mock.js"></script>
+<script src="../scripts/app.js"></script>
 </body>
 </html>
